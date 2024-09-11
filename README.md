@@ -26,7 +26,8 @@ In my algorithm, I use the with statement and .open() function in read mode to a
 -to read the file ocntents of a file i used the `.read()` method to convert it into the string.
 
 ```pthyon
-with open(import_file, "r") as file:
+with open(import_file, "r") as
+file:
 
 # use `.read()` to read the imported file and store it in a variable named `ip_addresses`
 
