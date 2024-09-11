@@ -38,6 +38,7 @@ ip_addresses = file.read()
 
 ```python
 # Use `.split()` to convert `ip_addresses` from a string to a list
+
 ip_addresses = ip_addresses.split()
 
 ```
