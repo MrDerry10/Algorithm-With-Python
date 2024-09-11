@@ -27,7 +27,9 @@ In my algorithm, I use the with statement and .open() function in read mode to a
 
 ```pthyon
 with open(import_file, "r") as file:
-    # Use `.read()` to read the imported file and store it in a variable named `ip_addresses`
+
+ # Use `.read()` to read the imported file and store it in a variable named `ip_addresses`
+
     ip_addresses = file.read()
 
 ```
